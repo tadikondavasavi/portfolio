@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.about {
+    background-color: #323f4b;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.parag {
+    font-weight: bold;
+    color: white;
+}
+
+.bg1 {
+    background-color: #1f2933;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.card1 {
+    background-color: #323f4b;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}
+
+.image2 {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.card1 {
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.p {
+    text-align: left;
+    color: #9aa5b1;
+    margin-left: 15px;
+}
+
+.an {
+    color: #cced00;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.par {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 23px;
+}
+
+.heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+
+}
+
+.card {
+    background-color: transparent;
+}
+
+.h {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.main-heading {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.head {
+    color: #cced00;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bg {
+    background-color: #3e4c59;
+}
+.h {
+    color: #cced00;
+    font-weight: bold;
+}
+
+.head {
+    color: white;
+    font-weight: bold;
+}
+
+.image1 {
+    height: 350px;
+    width: 300px;
+}
+.para {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.head {
+    color: white;
+    font-family: "Roboto";
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.bg {
+    background-color: #191a1d;
+}
+
+.nav-card {
+    border-width: 2px;
+    border-color: #4b6cc1;
+}
+
+.nav-icon {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+}
+</style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="nav-card">
+                    <p class="nav-icon">V.</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#">About me</a>
+                    <a class="nav-link" href="#">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container bg pt-5 pb-5 d-flex flex-column justify-content-center">
+        <div class="row">
+            <div class="col-12 col-md-5 order-1 order-md-2">
+                <div class="mr-5 mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="w-100" />
+                </div>
+            </div>
+            <div class="col-12 col-md-7 order-2 order-md-1">
+                <div class="">
+                    <h1 class="head">Hey, I am <span style="color:#4b6cc1;">Vasavi</span></h1>
+                    <p class="para">I am a Frontend Developer & Mentor.</p>
+                    <button class="btn btn-primary">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container about">
+        <div class="row">
+            <div class="col-12 pt-5 col-md-6 order-md-2">
+                <div class="fact">
+                    <h3 class="h">Facts</h3>
+                    <h1 class="head">About Me</h1>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="image1 w-100 d-md-none" />
+                    <p class="p pt-4">my name is jenny wilson , and iam currently looking for a job in fronted development.I have 3 years of experience workiing as a frontend developer .i have a bachelor's degree in electronics and communication.people find me to be an upbeat ,self motivated team player.
+                        my name is jenny wilson , and iam currently looking for a job in fronted development.I have 3 years of experience workiing as a frontend developer .i have a bachelor's degree in electronics and communication.people find me to be an upbeat ,self motivated team player.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 order-md-1 d-none d-md-block">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="image1 order-md-1 d-none d-md-block" />
+            </div>
+        </div>
+    </div>
+    <div class="container bg1 pt-5">
+        <h3 class="h">skills:</h3>
+        <div class="row">
+            <div class="col-12 col-xs-6 col-md-3 d-flex order-md-2">
+                <div class="card1 shadow order-md-2">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="image2" />
+                    <p class="parag">HTML</p>
+                </div>
+            </div>
+            <div class="col-12 col-xs-6 col-md-3">
+                <div class="card1 shadow">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="image2" />
+                    <p class="parag">CSS</p>
+                </div>
+            </div>
+            <div class="col-12 col-xs-6 col-md-3">
+                <div class="card1 shadow">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="image2" />
+                    <p class="parag">BOOTSTRAP</p>
+                </div>
+            </div>
+            <div class="col-12 col-xs-6 col-md-3">
+                <div class="card1 shadow">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="image2" />
+                    <p class="parag">JS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="bg pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="head">Portfolio</h1>
+                    <h1 class="main-heading">Projects I have done</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="w-100" />
+                    <div class=" card p-3 mb-3">
+                        <h1 class="h">Web design</h1>
+                        <h1 class="heading">Royal Grand Hotel</h1>
+                        <p class="par">Royal Grand Hotel is a Simple Static Website. We can use this layout for building the other websites...</p>
+                        <a class="an">Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="w-100 mb-4" />
+                    <div class=" card p-3">
+                        <h1 class="h">Web design</h1>
+                        <h1 class="heading">Happy Meals</h1>
+                        <p class="par">Happy Meals is the best-in-class food ordering page today. With interactive UI/UX and simple call to actions...</p>
+                        <a class="an">Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
